@@ -60,3 +60,4 @@ orchestrator replay --last 20
 - Workspaces use `git worktree` and require the repository to have an initial commit.
 - Verification steps are detected from the local environment and marked `skipped` when the required tools are unavailable.
 - Older repos that still have root-level `SESSION_STATE.json` and related files continue to work through a legacy fallback path.
+- GitHub Actions includes a PyPI publish workflow that triggers on `v*` tags or manual dispatch once PyPI trusted publishing is configured.
