@@ -7,7 +7,7 @@ Local Python CLI for coordinating AI-assisted development sessions across Codex,
 Use `pipx` if you want one reusable CLI for every project on your machine.
 
 ```bash
-pipx install "git+ssh://git@github.com/<you>/llm-orchestrator.git"
+pipx install llm-orchestrator
 ```
 
 For local development of this repo:

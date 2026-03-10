@@ -9,8 +9,27 @@ description = "Deterministic local orchestration for multi-model AI development 
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-  { name = "OpenAI Codex" },
+  { name = "summitchronicles" },
 ]
+keywords = ["ai", "cli", "development", "llm", "orchestration"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Build Tools",
+]
+
+[project.urls]
+Homepage = "https://github.com/summitchronicles/llm-orchestrator"
+Repository = "https://github.com/summitchronicles/llm-orchestrator"
+Issues = "https://github.com/summitchronicles/llm-orchestrator/issues"
 
 [project.scripts]
 orchestrator = "orchestrator.cli:main"
